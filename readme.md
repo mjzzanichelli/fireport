@@ -1,10 +1,10 @@
 #Fireport
 
-##How it works##
+##How it works
 
 Starting from the default port or the highest candidate, *fireport* will attempt to find a new port available by adding 1 recursively, within a time limit 
 
-##Usage##
+##Usage
 
 ```js
 import PortFinder from 'fireport';
@@ -32,7 +32,7 @@ PortFinder
   .then(...)
 ```
 
-##Default Values##
+##Default Values
 
 * time: 10s
 * port: 3000

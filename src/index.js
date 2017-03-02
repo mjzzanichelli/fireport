@@ -2,6 +2,9 @@ import net from 'net';
 import assign from 'object-assign';
 import Promise from 'bluebird';
 
+const DEFAUL_TIME = 10000;
+const DEFAUL_PORT = 3000
+
 function getTime() {
   return (new Date()).getTime();
 }
@@ -9,8 +12,8 @@ function getTime() {
 class PortFinder {
   constructor(config = {}) {
     assign(this, {
-      candidates: config.candidates || [3000],
-      time: config.time || 10000
+      candidates: config.candidates || [DEFAUL_PORT],
+      time: config.time || DEFAUL_TIME
     })
   }
 

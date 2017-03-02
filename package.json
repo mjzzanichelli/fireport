@@ -1,6 +1,6 @@
 {
   "name": "fireport",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "find available port",
   "preferGlobal": false,
   "private": false,
@@ -27,9 +27,16 @@
     "server",
     "port"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel ./src --watch --out-dir ./lib -s",
+    "build": "babel ./src -d ./lib"
+  },
   "dependencies": {
     "object-assign": "^4.1.1",
     "bluebird": "^3.4.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "name": "fireport",
+  "version": "0.0.1",
+  "description": "find available port",
+  "preferGlobal": false,
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/mjzzanichelli/fireport",
+  "author": {
+    "name": "Jose' Marco Zanichelli",
+    "email": "mjzzanichelli@hotmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mjzzanichelli/fireport.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "keywords": [
+    "node",
+    "net",
+    "server",
+    "port"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "bluebird": "^3.4.7"
+  }
+}

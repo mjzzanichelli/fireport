@@ -1,6 +1,6 @@
 {
   "name": "fireport",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "find available port",
   "preferGlobal": false,
   "private": false,

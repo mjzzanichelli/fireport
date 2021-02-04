@@ -1,6 +1,6 @@
 {
   "name": "fireport",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "find available port",
   "preferGlobal": false,
   "private": false,
@@ -18,27 +18,14 @@
     "type": "git",
     "url": "git@github.com:mjzzanichelli/fireport.git"
   },
-  "engines": {
-    "node": ">=0.10"
-  },
   "keywords": [
     "node",
     "net",
     "server",
     "port"
   ],
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "babel ./src --watch --out-dir ./lib -s",
-    "build": "babel ./src -d ./lib"
-  },
-  "dependencies": {
-    "object-assign": "^4.1.1",
-    "bluebird": "^3.4.7"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.23.0",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-stage-2": "^6.22.0"
+    "build": "echo build"
   }
 }
